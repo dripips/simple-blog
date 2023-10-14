@@ -45,7 +45,7 @@ $comments = getCommentsForPost($pdo, $post_id);
             <button type="submit" class="btn btn-primary">Добавить комментарий</button>
         </form>
     <?php else : ?>
-        <p>Чтобы оставить комментарий, пожалуйста, <a href="login.php">войдите</a>.</p>
+        <p>Чтобы оставить комментарий, пожалуйста, <a href="/login.php">войдите</a>.</p>
     <?php endif; ?>
 </div>
 
