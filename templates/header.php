@@ -20,18 +20,18 @@
               <?php if (isset($_SESSION['user_id'])) : ?>
                   <?php if ($userGroup == 1) : ?>
                       <li class="nav-item">
-                          <a class="nav-link" href="create_post.php">Создать пост</a>
+                          <a class="nav-link" href="/create_post.php">Создать пост</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="my_post.php">Мои посты</a>
+                          <a class="nav-link" href="/my_post.php">Мои посты</a>
                       </li>
                   <?php endif; ?>
                   <li class="nav-item">
-                      <a class="nav-link" href="logout.php">Выйти</a>
+                      <a class="nav-link" href="/logout.php">Выйти</a>
                   </li>
               <?php else : ?>
                   <li class="nav-item">
-                      <a class="nav-link" href="login.php">Авторизоваться</a>
+                      <a class="nav-link" href="/login.php">Авторизоваться</a>
                   </li>
               <?php endif; ?>
           </ul>
