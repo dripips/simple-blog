@@ -1,0 +1,25 @@
+/* Стили для кнопок редактора */
+.bb-editor-buttons {
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.bb-editor-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Стили для поля ввода */
+.bb-editor-content {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    height: 200px;
+}
